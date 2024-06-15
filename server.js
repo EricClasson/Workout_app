@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import workoutRouter from "./src/router/workoutRouter";
+import workoutRouter from "./src/router/workoutRouter.js";
 
 const app = express();
 const PORT = 3000;
