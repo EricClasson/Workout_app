@@ -45,3 +45,4 @@ Api:et innehåller dessa endpoints
 - Eric Classon [Github](https://github.com/EricClasson)
 - Alvin Samuelsson [Github](https://github.com/AwE9800)
 - Dennis Ehnwall [Github](https://github.com/Ehnwall)
+- Kalle Petersson [Github](https://github.com/MrKalleP)
