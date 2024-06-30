@@ -28,3 +28,6 @@ const createNewPass = async (req, res) => {
 export default {
   createNewPass,
 };
+
+// hej på er :D
+// tjabba
