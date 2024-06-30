@@ -21,7 +21,7 @@ const createNewPass = async (req, res) => {
       .status(200)
       .send(await workoutService.createPass(activePASS, newPass));
   } catch (e) {
-    res.send(404).send({ err: "pass was not added" });
+    res.status(404).send({ err: "pass was not added" });
   }
 };
 

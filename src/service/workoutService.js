@@ -19,8 +19,11 @@ const createPass = async (activePASS, newpass) => {
 };
 
 const getAllPass = async () => {
-  const AllPass = await fetchCollection(ACTIVE_WORKOUT_COLLECTION_NAME);
-  return AllPass;
+  const allPass = await fetchCollection(ACTIVE_WORKOUT_COLLECTION_NAME);
+
+  const collection = await allPass.find().toArray();
+
+  return collection;
 };
 
 export default {
