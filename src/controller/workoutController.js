@@ -25,8 +25,18 @@ const createNewPass = async (req, res) => {
   }
 };
 
+const getAllPass = async (req, res) => {
+  try {
+    const passes = await workoutService.getAllPass();
+    res.status(200).json(passes);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch passes" });
+  }
+};
+
 export default {
   createNewPass,
+  getAllPass,
 };
 
 // hej på er :D
